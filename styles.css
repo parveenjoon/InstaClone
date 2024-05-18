@@ -1,0 +1,58 @@
+
+/* General styles */
+body {
+    background-color: #fafafa;
+  }
+  
+  .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  .sidebar {
+    background-color: #fff;
+    /* Sidebar styles */
+  }
+  
+  .main-content {
+    background-color: #fff;
+    /* Main content styles */
+  }
+  
+  .footer {
+    background-color: #fff;
+    /* Footer styles */
+  }
+  
+  /* Specific styles for story section, posts section, etc. */
+  
+  .story-section {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+  }
+  .story-item {
+    flex: 0 0 auto;
+    margin-right: 10px; /* Adjust spacing between story items */
+  }
+  .story-item img,
+  .post-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .story-item,
+  .post-item {
+    margin-bottom: 20px;
+  }
+  
+  .user-details,
+  .suggestions,
+  .navigation-links {
+    margin-top: 20px;
+  }
+  
+  .suggestions ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
